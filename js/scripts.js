@@ -56,7 +56,7 @@ $("#end-btn").click(function(){
   var ticket = new Ticket(userMovie,userAge, userTime, price) //takes in users input from lines 28 29 30 and price from lines 33-42 and uses the constructor to make a new ticket and store it under the variable of ticket
 console.log(ticket);
 
-  theater.addTicket(ticket) // take the cariable of ticket and run it through the prototype of 'addTicket' that pushed our constructed ticket into the array(stored on line 2)inside of the var theater(created on line 24)
+  theater.addTicket(ticket) // take the variable of ticket and run it through the prototype of 'addTicket' that pushed our constructed ticket into the array(stored on line 2)inside of the var theater(created on line 24)
 
   theater.showTicket(ticket); // this takes in our ticket into the prototype 'showTicket' that using dot notation targets aspects of the constructed ticket in order to display it on page usint '.html'
   
